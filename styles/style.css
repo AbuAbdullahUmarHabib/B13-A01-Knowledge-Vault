@@ -1,5 +1,4 @@
 * {
-  max-width: 1600px;
   margin: 0 auto;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -68,6 +67,7 @@ nav {
   height: 674px;
   background: url(../assets/hero-bg.png);
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 115px 295px 295px;
 }
 #hero .hero-wrapper {
