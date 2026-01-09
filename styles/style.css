@@ -77,10 +77,16 @@ nav {
   margin: 0 auto;
 }
 #hero .hero-wrapper .info-textbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   color: #469165;
   background: #fff;
   padding: 8px 12px;
   border-radius: 1000px;
+}
+.info-textbox img {
+  margin-top: 4px;
 }
 .title-highlight {
   color: #469165;
