@@ -123,17 +123,21 @@ nav {
   text-align: center;
   margin-bottom: 44px;
 }
-.notes-info h1 {
+.notes-info h1,
+.brain-wrapper h1 {
   color: #001931;
   font-size: 48px;
   font-weight: bold;
   text-transform: capitalize;
+  margin-bottom: 16px;
 }
-.notes-info p {
+.notes-info p,
+.brain-wrapper p {
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
   color: #627382;
+  margin-bottom: 16px;
 }
 .notes-card {
   display: flex;
@@ -177,4 +181,34 @@ nav {
   line-height: 20px;
   text-align: center;
   margin-bottom: 69.5px;
+}
+
+.brain-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 120px;
+}
+.brain-wrapper ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-bottom: 16px;
+}
+.brain-wrapper h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  list-style: 20px;
+  color: #469165;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.brain-wrapper ul li img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
 }
